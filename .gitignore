@@ -6,3 +6,16 @@
 
 # Pending Project Directories
 production/
+
+# External Data Files/Directories
+datasets/0-external/*.zip
+datasets/0-external/*/
+
+# Raw Data Directories
+datasets/1-raw/*/
+
+# Interim Data Files/Directories
+datasets/2-interim/*/
+
+# Processed Data Files/Directories
+datasets/3-processed/*/
