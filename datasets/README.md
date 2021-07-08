@@ -4,8 +4,8 @@
 
 General project data lives here. 
 
-Original project data can be accessed via [this link](https://google.com/).
+Original project data and metadata can be accessed via [this link](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria).
 
-External project data is curated into interim data and further processed into processed data, which is ready and available for machine learning and predictive analytics. 
+External project data is converted into raw data, curated into interim data, and further processed into processed data, which is then ready and available for machine learning and predictive analytics. 
 
 Click on one of the subdirectories to access its relevant datasets. 
