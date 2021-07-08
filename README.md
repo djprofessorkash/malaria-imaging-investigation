@@ -1,32 +1,26 @@
-<h1 align="center"><b>D.S. Project</b>: <i>Template Repository</i></h1>
-
-`TODO`: **Be sure to replace the badge links to your own personal project links so they're up-to-date!**
+<h1 align="center"><b>Data Investigation</b>: <i>Malaria Cell Imaging</i></h1>
 
 <p align="center">
 <a href="/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg"/></a>
-<a href="https://docs.python.org/3/index.html"><img src="https://img.shields.io/badge/python-3.6-blue.svg"/></a>
-<a href="https://github.com/AakashSudhakar/ds-project-maker/commits/master"><img src="https://img.shields.io/github/last-commit/AakashSudhakar/ds-project-maker.svg?style=flat"/></a>
-<a href="https://github.com/AakashSudhakar/ds-project-maker"><img src="https://img.shields.io/github/repo-size/AakashSudhakar/ds-project-maker.svg?style=flat"/></a>
-<a href="https://github.com/AakashSudhakar/ds-project-maker/releases"><img src="https://img.shields.io/github/release/AakashSudhakar/ds-project-maker.svg?style=flat"/></a>
-
+<a href="https://docs.python.org/3/index.html"><img src="https://img.shields.io/badge/python-3.8-blue.svg"/></a>
+<a href="https://github.com/AakashSudhakar/malaria-imaging-investigation/commits/master"><img src="https://img.shields.io/github/last-commit/AakashSudhakar/malaria-imaging-investigation.svg?style=flat"/></a>
+<a href="https://github.com/AakashSudhakar/malaria-imaging-investigation"><img src="https://img.shields.io/github/repo-size/AakashSudhakar/malaria-imaging-investigation.svg?style=flat"/></a>
 
 ---
 
 ## Description
 
-`TODO`: **Write a good description for your data science project here.**
+This is a semi-guided project tutorial designed for use by current and future students of Make School at Dominican University of California. 
 
-If you want to highlight important **ideas** or _concepts_, be sure to play with the `styling` of this text.
+This project explores, analyzes, processes, and performs classification inquiries across the 2018 Kaggle Malaria Cell Images dataset - the data was curated and comprehensively put together by the [Lister Hill National Cell for Biomedical Communications](https://lhncbc.nlm.nih.gov/LHC-downloads/downloads.html#malaria-datasets).
 
-Remember to create in-line links for any sources you're referencing, especially for any data sources you're using - whether it's from [Kaggle](https://www.kaggle.com/), [Reddit](https://www.reddit.com/r/datasets/), the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets.php), [Awesome Datasets on Github](https://github.com/awesomedata/awesome-public-datasets), or [somewhere else entirely](https://www.google.com/). 
+Currently, this project is designed to walk through intermediate machine learning processes and pipeline analyses across its target dataset without serious emphasis on productionization or scaling of advanced data modeling.
+
+This may change with future updates. 
 
 ## Project Hierarchy
 
-Be sure to never commit sensitive or large files/directories to your project repository. This is doubly true in the case of datasets, even if they are integral to your pipeline. 
-
-A better way to approach depicting the layout of your datasets is to upload zipped, curated datasets while visually displaying your overall project hierarchy. 
-
-A basic project hierarchy tree structure for this current repository is shown below.
+A full project hierarchy tree structure for this investigative data science project is shown below.
 
 ```
 ds-project-template-repository
@@ -35,6 +29,8 @@ ds-project-template-repository
 │   .gitignore
 │
 └───datasets
+│   │
+│   └───raw 
 │   │   
 │   └───external
 │   │   
@@ -69,25 +65,23 @@ ds-project-template-repository
 
 ## Dependencies
 
-`TODO`: **List any external dependencies for your project here, including relevant in-line links as needed.** 
-
 General dependencies, such as `NumPy` and `Pandas`, are listed below. 
 
 * [NumPy](https://github.com/numpy/numpy)
 * [Pandas](https://github.com/pandas-dev/pandas)
 * [MatPlotLib](https://github.com/matplotlib/matplotlib)
 * [Seaborn](https://github.com/mwaskom/seaborn)
-
+* [SciKit-Learn](https://github.com/scikit-learn/scikit-learn)
 
 ## Credits
 
-`TODO`: **Replace these statements with your own credits and acknowledgements, or remove this section entirely!**
-
 Thanks to the [Make School](https://makeschool.com/) community of students and professionals seeking to learn software engineering and data science for real-world applications. 
 
-Special thanks to [Alan Davis](https://github.com/neptunius), [Mike Kane](https://github.com/mike-kane), and [Milad Toutounchian](https://github.com/miladtoutounchian) for teaching me modern data science and computer science skills to be able to both teach others and make an impact in the field of applied biology (my own personal domain-of-interest). 
+Thanks to the [Lister Hill National Cell for Biomedical Communications](https://lhncbc.nlm.nih.gov/) and the [National Institutes of Health](https://www.nih.gov/) for the curation, productionization, and distribution of research datasets applicable to the field of diagnostics and medicine. 
 
-Credits to the [Cookie Cutter project](https://github.com/cookiecutter/cookiecutter) for inspiring me to create a similar structural tool for learning and training data science fellows at Make School to formulate better and more enriched projects without wasting too much time on hierarchical setup. 
+Thanks to [Arunava Chakraborty](https://www.kaggle.com/iarunava) for his contributions on Kaggle to allow peer-to-peer access to this project's dataset and usefully applicable machine learning pipelines to creatively inspire our own investigation.
+
+Finally, special thanks go to two groups of individuals: to Joseph Catanzarite and Adam Braus for mentoring this project and administering oversight for Make School's current generation of aspiring data scientists and quantitatively literate software engineers; and to Hani Jandali and Yin Chang for going beyond student responsibilities to assist in testing and providing valuable feedback for the development and presentation of this project. 
 
 ## License
 
@@ -95,7 +89,5 @@ The content of this project itself and the source code used to format and displa
 
 ---
 
-`TODO`: **Replace my name and in-line professional media account below with your own relevant info!**
-
-<p align="center">This project is constructed and maintained by <strong><a href="https://makeschool.com/portfolio/kash">Aakash Sudhakar</a></strong>.
+<p align="center">This project is constructed and maintained by <strong><a href="https://www.linkedin.com/in/aakashsudhakar/">Aakash Sudhakar</a></strong>.
 </p>
